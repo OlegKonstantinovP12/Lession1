@@ -57,9 +57,7 @@ var productName: String = "Молоко"
 var price: Int = 100
 var quantity: Int = 3
 
-let shoppingCart = "Вы добавили в корзину \(quantity) шт. товара '\(productName)' на сумму \(price * quantity) руб."
-
-print(shoppingCart)
+print("Вы добавили в корзину \(quantity) шт. товара '\(productName)' на сумму \(price * quantity) руб.")
 
 //MARK: - Основные типы данных
 //Задание 1
