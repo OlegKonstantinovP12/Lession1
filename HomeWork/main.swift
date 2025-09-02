@@ -61,3 +61,29 @@ let shoppingCart = "Вы добавили в корзину \(quantity) шт. т
 
 print(shoppingCart)
 
+//MARK: - Основные типы данных
+//Задание 1
+let minimumNumberInt16: Int16 = Int16.min
+let numberUInt8: UInt8 = 200
+let pi: Double = 3.1415926535
+let isFalse: Bool = false
+let frase: String = """
+- Видишь суслика?
+- Нет
+- И я не вижу. А он есть
+"""
+//Задание 2
+var choiceNumber: Int = 0
+
+print("Введите число для возведения в квадрат")
+choiceNumber = Int(readLine() ?? "0") ?? 0
+choiceNumber *= choiceNumber
+print(choiceNumber)
+
+//Задание 3
+
+let number: Int = Int(readLine() ?? "0") ?? 0
+
+let isEven: Bool = number % 2 == 0
+
+
