@@ -73,13 +73,13 @@ let frase: String = """
 //Задание 2
 var choiceNumber: Int = 0
 
-print("Введите число для возведения в квадрат")
+print("Введите число для возведения в квадрат:")
 choiceNumber = Int(readLine() ?? "0") ?? 0
 choiceNumber *= choiceNumber
 print(choiceNumber)
 
 //Задание 3
-
+print("Введите число для проверки на четность/нечетность:")
 let number: Int = Int(readLine() ?? "0") ?? 0
 
 let isEven: Bool = number % 2 == 0
@@ -108,13 +108,13 @@ var count = 10
 //MARK: - Логические значения и условные операторы
 
 //Задание 1
-/* Для данного задания я взял вводимое значение 'number' из задания 3, Темы: Основные типы данных*/
-if number < 0 {
-    print ("Число \(number) является отрицательным")
-} else if number == 0 {
-    print("Введенное число является \(number)")
+let checkNumber: Int = Int(readLine() ?? "0") ?? 0
+if checkNumber < 0 {
+    print ("Число \(checkNumber) является отрицательным")
+} else if checkNumber == 0 {
+    print("Введенное число является \(checkNumber)")
 } else {
-    print("Число \(number) положительное")
+    print("Число \(checkNumber) положительное")
 }
 
 //Задание 2
